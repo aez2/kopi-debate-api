@@ -1,0 +1,15 @@
+[project]
+name = "kopi-debate-api"
+version = "0.1.0"
+authors = [{ name = "Your Name" }]
+dependencies = [
+  "fastapi~=0.115",
+  "uvicorn[standard]~=0.30",
+  "pydantic~=2.9",
+  "redis~=5.0",
+  "openai~=1.44"
+]
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+addopts = "-q"
