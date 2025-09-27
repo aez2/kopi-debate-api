@@ -51,4 +51,5 @@ class LocalArguer(BaseArguer):
             f"1) define the goal clearly, 2) compare evidence on that goal, 3) prefer what consistently wins. "
             f"On that basis, **{stance}** wins. {closer}"
         )
+        body += " To stay focused, let’s keep arguments tied to this topic and stance."
         return body
